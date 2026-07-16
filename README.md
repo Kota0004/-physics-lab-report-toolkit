@@ -38,7 +38,12 @@ scripts/
   merge-cover.py           表紙 PDF + 本文 PDF を A4 統一で結合(pypdf)
   render-pdf.py            PDF を PNG 化(仕上がり確認用, pypdfium2)
 examples/planck/           実例:プランク定数レポート一式(→ examples/planck/README.md)
+experiments/               実験データ保管庫:実験1〜5の測定データ・資料・図・提出レポート
+                           (→ experiments/README.md)
 ```
+
+> **⚠️ Private 必須**: `experiments/` に手書き表紙(氏名・学生番号)や教科書スキャン等の
+> 個人情報・著作物を含むため、このリポジトリは Private のままにすること。
 
 ## 使い方(新しいレポートを作る)
 

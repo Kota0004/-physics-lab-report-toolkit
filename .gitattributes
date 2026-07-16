@@ -5,5 +5,11 @@
 *.pdf   binary
 *.png   binary
 *.jpg   binary
+*.jpeg  binary
 *.xlsx  binary
+*.xls   binary
 *.docx  binary
+
+# 測定データ CSV は改行変換しない(オシロ出力の原本保護)
+*.csv   binary
+*.CSV   binary
