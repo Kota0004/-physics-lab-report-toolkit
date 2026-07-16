@@ -1,0 +1,9 @@
+# PDF 結合・レンダリング用(scripts/merge-cover.py, scripts/render-pdf.py)
+pypdf>=4.0
+pypdfium2>=4.0
+pillow>=10.0
+
+# 図を自作する場合(matplotlib)。Excel グラフをそのまま使うだけなら不要
+matplotlib>=3.8
+# Excel データを Python から読む場合(任意)
+openpyxl>=3.1

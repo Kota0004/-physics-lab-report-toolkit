@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# ビルド生成物(docx / PDF / 確認用レンダリング)
+build/
+**/build/
+*_typed.pdf
+*_final.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Office 一時ロックファイル
+~$*
+
+# OS
+.DS_Store
+Thumbs.db

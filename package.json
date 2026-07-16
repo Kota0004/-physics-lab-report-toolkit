@@ -1,0 +1,10 @@
+{
+  "name": "physics-lab-report-toolkit",
+  "version": "1.0.0",
+  "description": "日本大学物理学科の物理学実験レポートを生成するツールキット(docx生成・Excelグラフ書き出し・表紙PDF結合)",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}
