@@ -14,7 +14,7 @@ make_fig1.py       参考図(共鳴周波数 f vs 磁場 B と最小二乗直線
 build.sh           一括ビルド(docx生成 → LibreOffice で PDF 化 → 表紙結合)
 data/nmr_measurements.csv   測定データ(f = 8.0〜11.0 MHz の 7 点の共鳴磁場)
 figures/fig1_f_vs_B.png     参考図(make_fig1.py の出力・レポート非掲載)
-cover/cover.pdf    手書きスキャン(表紙+予習 −1−〜−4−+課題シート・磁場記入済)
+cover/cover.pdf    手書きスキャン(表紙+予習 −1−〜−4−+課題シート −5−・磁場記入済)
 build/             生成物(.gitignore 対象)
 ```
 
@@ -35,9 +35,9 @@ Windows + Word で組む場合は `examples/planck/build.ps1` と同様に
 
 ## この実験でのポイント
 
-- 手書き(表紙+予習 −1−〜−4−+課題シート)が 6 ページなので、タイプ打ちは
-  **ページ 5 から**(`buildDocument(..., { pageStart: 5 })`)、式番号も手書き原理の
-  (1)〜(12) に続けて **(13) から**(課題シートはページ番号なしの差し込み)。
+- 手書き(表紙+予習 −1−〜−4−+課題シート −5−)が 6 ページなので、タイプ打ちは
+  **ページ 6 から**(`buildDocument(..., { pageStart: 6 })`)、式番号も手書き原理の
+  (1)〜(12) に続けて **(13) から**。
 - 平均 B̄・f̄ → 偏差の積和・2乗和 → 傾き df/dB → γn → ħ → gn の順に、
   **すべて数値を代入した式(13)〜(23)で導出**(表・グラフは使わない)。
 - LibreOffice の OMML 変換では `MathSum`(Σ)や `MathRoundBrackets` が
