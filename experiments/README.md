@@ -33,6 +33,11 @@
     materials/  課題等(配布資料), グラフ1(手描き片対数), 手書き表紙, 教科書(低解像度)
     figures/    レポート掲載図(fig1〜4, Excelグラフ書き出し)
     report/     提出レポート(docx / pdf)
+06_核磁気共鳴/
+    data/       nmr_measurements.csv(発振周波数 8.0〜11.0 MHz の 7 点の共鳴磁場)
+    materials/  表紙予習・課題シート(手書きスキャン・磁場記入済), 教科書(低解像度)
+    figures/    レポート掲載図(fig1, matplotlib 作成)
+    report/     提出レポート(docx / pdf)
 ```
 
 各実験フォルダは番号順(実験の実施順)。`report/` の PDF が提出版。
@@ -46,9 +51,12 @@
 | 3 | 放射性物質の崩壊 | (提出レポートのみ) |
 | 4 | マイケルソン干渉計 | λ = 523 ± 3 nm、n(空気) = 1.000238、L_c,eff = 0.21 mm |
 | 5 | プランク定数 | h = (7.76 ± 0.19)×10⁻³⁴ J·s、eφ = 1.89 ± 0.07 eV |
+| 6 | 核磁気共鳴 | df/dB = 4.2003×10⁷ Hz/T、γn = 2.6391×10⁸ s⁻¹·T⁻¹、gn = 5.5103(理想値 −1.35 %) |
 
 ## メモ
 
 - 実験 1〜3 は提出 PDF のみが手元にあり、生データ(Excel 等)は保管していない。
 - マイケルソンとプランクの図は Excel 埋め込みグラフを PNG 書き出ししたもの
   (作成手順は report-toolkit の `scripts/export-excel-charts.ps1`)。
+- 核磁気共鳴の図は matplotlib で作成(生成スクリプトとレポート生成一式は
+  `examples/nmr/`。Linux + LibreOffice でのビルド見本にもなっている)。

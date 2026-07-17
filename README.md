@@ -38,6 +38,8 @@ scripts/
   merge-cover.py           表紙 PDF + 本文 PDF を A4 統一で結合(pypdf)
   render-pdf.py            PDF を PNG 化(仕上がり確認用, pypdfium2)
 examples/planck/           実例:プランク定数レポート一式(→ examples/planck/README.md)
+examples/nmr/              実例:核磁気共鳴レポート一式。Linux + LibreOffice ビルドの見本
+                           (→ examples/nmr/README.md)
 experiments/               実験データ保管庫:実験1〜5の測定データ・資料・図・提出レポート
                            (→ experiments/README.md)
 ```
